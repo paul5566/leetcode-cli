@@ -58,7 +58,6 @@ class Solution:
         low = 0
         high = n
         while(high - low != 1):
-            #print(high, low)
             mid = int((low+high)/2)
             if isBadVersion(mid) == True:
                 high = mid
