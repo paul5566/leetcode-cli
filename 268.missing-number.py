@@ -32,6 +32,7 @@
 # Your algorithm should run in linear runtime complexity. Could you implement
 # it using only constant extra space complexity?
 #
+# Use Gauss formula
 class Solution:
     def missingNumber(self, nums: 'List[int]') -> 'int':
        gauss = len(nums)*(len(nums)+1)/2
